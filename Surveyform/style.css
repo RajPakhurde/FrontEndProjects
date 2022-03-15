@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aquamarine;
+}
+.mainheading {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.surveyform {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  min-height: 481px;
+  color: rgb(110, 110, 110);
+}
+.title {
+  text-align: center;
+}
+.currentrole {
+  text-align: center;
+}
+.raduobutton {
+  display: grid;
+}
+.pd {
+  margin: 7px;
+}
+label {
+  padding: 20px;
+}
+input[type="number"] {
+  margin-left: 9px;
+}
+.title2 {
+  margin: 20px;
+}
+input:placeholder-shown {
+  padding: 3px;
+  font-size: x-small;
+  width: 250px;
+}
+.currentrole {
+  position: relative;
+  right: 13.2vw;
+  margin: 20px;
+}
+.radio {
+  position: relative;
+  left: 50%;
+}
+.question {
+  position: relative;
+  left: 16%;
+  width: fit-content;
+  text-align: right;
+  padding-left: 21px;
+  top: 13px;
+}
+
+.radiobutton {
+  padding-bottom: 10px;
+  height: 65px;
+}
+.radiodiv {
+  width: fit-content;
+  text-align: center;
+  display: inline;
+  position: relative;
+  bottom: 41%;
+  right: 7%;
+}
+.mostlike {
+  position: relative;
+  left: 20.5%;
+  padding: 20px;
+}
+.tick {
+  text-align: right;
+  width: fit-content;
+  position: relative;
+  left: 17vw;
+  top: 6px;
+}
+#checkbox {
+  width: fit-content;
+  position: relative;
+  left: 40vw;
+  bottom: 32%;
+}
+.checkbox {
+  height: 90px;
+}
+.submitbutton {
+  text-align: center;
+}
+.submit {
+  padding: 3px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: gray;
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: rgb(6, 247, 166);
+  color: rgb(116, 115, 115);
+  border: 1px solid rgb(2, 136, 91);
+}
