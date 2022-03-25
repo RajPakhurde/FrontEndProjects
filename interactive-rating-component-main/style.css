@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page {
+  display: flex;
+  justify-content: center;
+}
+.mainbox {
+  background-color: hsl(213, 19%, 15%);
+  width: 31vw;
+  height: 23rem;
+  position: absolute;
+  top: 22%;
+  border-radius: 37px;
+}
+.mainbox2 {
+  background-color: hsl(213, 19%, 18%);
+  width: 31vw;
+  height: 23rem;
+  position: absolute;
+  top: 22%;
+  border-radius: 37px;
+  margin-left: 34.2%;
+}
+.p1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  padding-left: 38px;
+  font-family: Overpass;
+  font-weight: 700;
+}
+.p2 {
+  color: hsl(217, 12%, 63%);
+  padding: 16px 39px;
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.star {
+  border-radius: 100%;
+  background-color: hsl(214, 19%, 21%);
+  width: fit-content;
+  padding: 10px;
+  margin: 25px 33px;
+}
+.rateNo {
+  padding: 16px;
+  background-color: hsl(214, 19%, 21%);
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  margin: 13px;
+  border-style: none;
+  font-family: Overpass;
+}
+
+.rateNotoggle {
+  padding: 16px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  margin: 13px;
+  border-style: none;
+  font-family: Overpass;
+}
+.rate {
+  text-align: center;
+}
+.subtn {
+  text-align: center;
+  padding-top: 14px;
+  margin: 0px 46px;
+}
+.subtn {
+  width: 19.4rem;
+  height: 36px;
+  border-radius: 22px;
+  border-style: none;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-family: Overpass;
+}
+.subtn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.rateNo:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+#submit {
+  padding-top: 9px;
+}
+.submit-clicked {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+.hidden {
+  display: none;
+}
+.img1 {
+  width: 141px;
+  height: 142px;
+  margin: 27px;
+  margin-left: 27px;
+  margin-left: 89px;
+}
+.mainbox {
+  background-color: hsl(213, 19%, 15%);
+  width: 31vw;
+  height: 23rem;
+  position: absolute;
+  top: 22%;
+  border-radius: 37px;
+}
+.p1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 700;
+  padding-top: 12px;
+}
+.p2 {
+  color: hsl(217, 12%, 63%);
+  padding: 16px 39px;
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  position: relative;
+  top: -19px;
+}
+#select {
+  background-color: hsl(214, 19%, 21%);
+  padding: 7px 22px;
+  border-radius: 42px;
+  color: hsl(25, 97%, 53%);
+  font-family: Overpass;
+  font-size: 12px;
+}

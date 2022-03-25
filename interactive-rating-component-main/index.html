@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="first-page">
+      <div class="mainbox">
+        <div class="star">⭐</div>
+        <p class="p1">How did we do?</p>
+
+        <div class="p2">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </div>
+
+        <div class="rate">
+          <button class="rateNo" data-number="1">1</button>
+          <button class="rateNo" data-number="2">2</button>
+          <button class="rateNo" data-number="3">3</button>
+          <button class="rateNo" data-number="4">4</button>
+          <button class="rateNo" data-number="5">5</button>
+        </div>
+
+        <div class="submitbtn">
+          <button class="subtn" type="submit" onclick="" >Submit </button>
+        </div>
+      </div>
+    </div>
+    <div class="first-page1 hidden ">
+      <div class="mainbox2">
+        <div class="img1">
+          <img src="../assects/img1.jpg" alt="This is an image bro" />
+        </div>
+        <div class="result">
+          <span id="select"></span>
+        </div>
+        <p class="p1">Thank you!</p>
+        <div class="p2">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </div>
+      </div>
+    </div>
+   
+    <!-- Rating state end -->
+
+   <!-- Thank you state start -->
+  
+    <!-- Thank you state end
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Raj Pakhurde</a>.
+    </div>
+  </body>
+</html>
