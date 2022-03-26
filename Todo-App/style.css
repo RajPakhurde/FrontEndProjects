@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(
+    -45deg,
+    #ffc0cb,
+    #ffe4e1,
+    #ffb6c1,
+    #fddde6,
+    #ffcff1,
+    #fbcce7
+  );
+  background-size: 100% 100%;
+  animation: gradient 2s ease-in-out 1;
+  text-align: center;
+}
+.main {
+  background-color: aquamarine;
+  min-height: 32rem;
+}
+.footer {
+  background-color: bisque;
+  height: 19px;
+}
+.task {
+  width: 34.5vw;
+  margin-right: 81px;
+  color: white;
+  border-radius: 5px;
+}
+.heading {
+  height: 120px;
+  padding-top: 66px;
+  font-size: 4vw;
+}
+.input-field {
+  text-align: center;
+}
+#todoList {
+  padding: 11px;
+  margin: 32px;
+  width: 33vw;
+  border-style: none;
+  border-radius: 7px;
+}
+.submitbutton {
+  padding: 11px;
+  border-style: none;
+  border-radius: 6px;
+}
+.todo-buttons {
+  padding: 9px;
+  margin-bottom: 17px;
+  background-color: blue;
+  border-radius: 4px;
+}
+.ul {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+.todo-btn.remove {
+  position: absolute;
+  left: 59%;
+}
+.todo-btn.done {
+  position: absolute;
+  left: 55%;
+}
+@keyframes gradient {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* background: linear-gradient(-45deg, #ffc0cb, #ffe4e1, #ffb6c1, #fddde6, #ffcff1, #fbcce7);
+background-size: 400% 400%;
+animation: gradient 5s ease infinite;
+height: 100%; */
