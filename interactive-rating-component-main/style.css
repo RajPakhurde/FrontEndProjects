@@ -21,7 +21,7 @@ body {
   border-radius: 37px;
 }
 .mainbox2 {
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(213, 19%, 15%);
   width: 31vw;
   height: 23rem;
   position: absolute;
@@ -32,9 +32,9 @@ body {
 .p1 {
   color: hsl(0, 0%, 100%);
   font-size: 2rem;
-  padding-left: 38px;
   font-family: Overpass;
   font-weight: 700;
+  text-align: center;
 }
 .p2 {
   color: hsl(217, 12%, 63%);
@@ -42,6 +42,7 @@ body {
   font-size: 15px;
   font-family: Overpass;
   font-weight: 400;
+  text-align: center;
 }
 .star {
   border-radius: 100%;
@@ -72,19 +73,17 @@ body {
 .rate {
   text-align: center;
 }
-.subtn {
+.submitbtn {
   text-align: center;
-  padding-top: 14px;
-  margin: 0px 46px;
+  padding: 12px;
 }
 .subtn {
-  width: 19.4rem;
-  height: 36px;
-  border-radius: 22px;
-  border-style: none;
-  background-color: hsl(25, 97%, 53%);
+  padding: 5px 127px;
+  font-size: 19px;
   color: hsl(0, 0%, 100%);
-  font-family: Overpass;
+  background: hsl(25, 97%, 53%);
+  border-style: none;
+  border-radius: 63px;
 }
 .subtn:hover {
   background-color: hsl(0, 0%, 100%);
@@ -121,22 +120,6 @@ body {
   position: absolute;
   top: 22%;
   border-radius: 37px;
-}
-.p1 {
-  color: hsl(0, 0%, 100%);
-  font-size: 24px;
-  text-align: center;
-  font-family: Overpass;
-  font-weight: 700;
-  padding-top: 12px;
-}
-.p2 {
-  color: hsl(217, 12%, 63%);
-  padding: 16px 39px;
-  font-size: 15px;
-  font-family: Overpass;
-  font-weight: 400;
-  text-align: center;
 }
 
 .result {
