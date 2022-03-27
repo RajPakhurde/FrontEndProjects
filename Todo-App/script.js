@@ -25,3 +25,24 @@ document.addEventListener("DOMContentLoaded", () => {
     return false;
   });
 });
+
+submitbtn.addEventListener("click", () => {
+  document.querySelector("img").style.visibility = "visible";
+  let sound = document.querySelector(".sound");
+  sound.play();
+});
+
+document.querySelector(".ul").addEventListener("click", (e) => {
+  if (e.target.classList.contains("remove")) {
+    const deletelement = e.target.parentNode.parentNode;
+    deletelement.remove();
+    let sound2 = document.querySelector(".sound2");
+    sound2.play();
+  }
+  if (e.target.classList.contains("done")) {
+    const complete = e.target.parentNode;
+    complete.style.textDecoration = "line-through";
+    let sound3 = document.querySelector(".sound3");
+    sound3.play();
+  }
+});

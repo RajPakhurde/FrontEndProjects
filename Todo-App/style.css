@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Mono:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,35 +6,70 @@
 .header {
   background: linear-gradient(
     -45deg,
-    #ffc0cb,
-    #ffe4e1,
-    #ffb6c1,
-    #fddde6,
+    #ffc0fa,
+    #ffe1f7,
+    #ffb6e7,
+    #fdddf8,
     #ffcff1,
-    #fbcce7
+    #f9ccfb
   );
   background-size: 100% 100%;
-  animation: gradient 2s ease-in-out 1;
+  animation: gradient 1s ease-in-out 1;
   text-align: center;
 }
+img {
+  position: relative;
+  right: -410px;
+  width: 10vw;
+  bottom: 80px;
+  visibility: hidden;
+}
 .main {
-  background-color: aquamarine;
+  background-color: rgba(0, 0, 0, 0.747);
   min-height: 32rem;
+  animation-name: mainbody;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+#ta {
+  font-family: "Dela Gothic One", cursive;
+  border-bottom: 2px solid black;
+  color: rgba(232, 36, 36, 0.74);
+  box-shadow: 0px 3px #9d668c;
+}
+#ta:hover {
+  color: blue;
+  cursor: grabbing;
+}
+::placeholder {
+  font-family: "Roboto Mono", monospace;
 }
 .footer {
   background-color: bisque;
   height: 19px;
+  text-align: center;
+}
+#fistname {
+  color: black;
+  font-family: "Roboto Mono", monospace;
 }
 .task {
   width: 34.5vw;
   margin-right: 81px;
-  color: white;
+  /* color: white; */
   border-radius: 5px;
 }
 .heading {
-  height: 120px;
+  height: 45px;
   padding-top: 66px;
   font-size: 4vw;
+}
+h1 {
+  animation-name: headingtodo;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
 }
 .input-field {
   text-align: center;
@@ -49,12 +85,26 @@
   padding: 11px;
   border-style: none;
   border-radius: 6px;
+  background-color: #e2c0f2;
+}
+.submitbutton:hover {
+  cursor: pointer;
 }
 .todo-buttons {
   padding: 9px;
   margin-bottom: 17px;
-  background-color: blue;
+  background: linear-gradient(
+    -45deg,
+    #ffc0fa,
+    #ffe1f7,
+    #ffb6e7,
+    #fdddf8,
+    #ffcff1,
+    #f9ccfb
+  );
   border-radius: 4px;
+  border: 2px solid lime;
+  font-family: "Roboto Mono", monospace;
 }
 .ul {
   justify-content: center;
@@ -64,10 +114,27 @@
 .todo-btn.remove {
   position: absolute;
   left: 59%;
+  padding: 1px 6px;
+  background-color: #ff0eff;
+  border-style: none;
+  color: white;
+  border-radius: 2px;
+  font-family: "Roboto Mono", monospace;
 }
 .todo-btn.done {
   position: absolute;
-  left: 55%;
+  left: 54%;
+  border-style: none;
+  border-radius: 2px;
+  padding: 1px 10px;
+  background-color: #e112e1;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+.todo-btn.remove:hover,
+.todo-btn.done:hover {
+  background-color: #f56cf5;
+  cursor: pointer;
 }
 @keyframes gradient {
   0% {
@@ -75,6 +142,28 @@
   }
   100% {
     width: 100%;
+  }
+}
+@keyframes headingtodo {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes mainbody {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 /* background: linear-gradient(-45deg, #ffc0cb, #ffe4e1, #ffb6c1, #fddde6, #ffcff1, #fbcce7);
